@@ -4,6 +4,7 @@ import { commandExit } from "./command_exit.js";
 import type { CLICommand } from "./command.js";
 
 export function getCommands(): Record<string, CLICommand> {
+  //add more commands later if needed
   return {
     help: {
       name: "help",
